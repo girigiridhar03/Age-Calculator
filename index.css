@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+     border: 2px solid rebeccapurple;
+     width: 95vw;
+     max-width: 1200px;
+     margin: 10rem auto;
+     text-align: center;
+     padding: 2rem 2.5rem;
+     box-shadow: 10px 10px 12px rebeccapurple;
+     border-radius: 10px;
+}
+
+h1{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.input-container{
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    background-color: rgb(168, 107, 230);
+}
+
+.input-container input{
+    width: 80%;
+    height: 50px;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    outline: none;
+    border-radius: 10px;
+    border: white;
+    color: black;
+    
+}
+
+.input-container button{
+    padding: 1rem 2rem;
+    height: 50px;
+    font-size: 1.1rem;
+    background-color: yellow;
+    border: yellow;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+}
+
+p{
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:800px) {
+    
+    input{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .input-container{
+          padding: 2rem  
+    };
+   
+}
+
+@media screen and (max-width:600px){
+    
+    h1{
+        width: 95%;
+    }
+    .input-container{
+        width: 90%;
+        margin: auto;
+        padding: 2rem .5rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:400px){
+    
+    .container{
+        padding: 2rem 1rem;
+    }
+    .input-container{
+        padding: 2rem .5rem;
+    }
+    h1{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:320px){
+    .container{
+        padding: 1rem;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .input-container{
+        width: 100%;
+        padding: 2rem 0;
+    }
+    .input-container input{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+}
